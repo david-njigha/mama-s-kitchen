@@ -1,0 +1,180 @@
+MAMA'S KITCHEN, WEEK 2: ALL THE WORDS
+=====================================
+Your job is the markup, not the writing. Copy these words into
+reservations.html and menu.html.
+Both pages already have the header, the nav and the footer.
+You only build what goes inside <main>.
+
+
+=====================================
+BOOKING PAGE (reservations.html)   (Saturday's class)
+=====================================
+
+Page heading: Book your table
+Paragraph: We seat on a first-come basis most nights, but reservations are always honoured. Fridays and Saturdays book out, so reserve early.
+
+-------------------------------------
+PART 1: OPENING HOURS (a table, inside an <aside>)
+-------------------------------------
+Heading: Opening hours
+Paragraph: We're open seven days a week. The kitchen closes 30 minutes before close.
+Table caption: Opening hours
+Two columns: the day | the hours
+
+  Monday | 12:00 to 10:00 PM
+  Tuesday | 12:00 to 10:00 PM
+  Wednesday | 12:00 to 10:00 PM
+  Thursday | 12:00 to 11:00 PM
+  Friday | 12:00 to 12:00 AM
+  Saturday | 11:00 to 12:00 AM
+  Sunday | 11:00 to 9:00 PM
+
+Under the table, a list of contact details (make each label bold):
+  Address: 42 Allen Avenue, Ikeja, Lagos
+  Phone: +234 801 234 5678
+  Email: hello@mamaskitchen.com
+  Private events: events@mamaskitchen.com
+
+-------------------------------------
+PART 2: THE BOOKING FORM (before the opening hours)
+-------------------------------------
+Form heading: Tell us when and we'll set the table.
+
+The fields, in this order:
+
+1. First name            (text box, required, placeholder: Adaeze)
+2. Last name             (text box, required, placeholder: Okafor)
+3. Email                 (email box, required, placeholder: you@email.com)
+4. Phone                 (phone box, required, placeholder: +234 801 234 5678)
+5. Date                  (date box, required)
+6. Time                  (dropdown, required)
+     First choice: Select a time   (value is empty)
+     12:00 PM   (value 12:00)
+     1:00 PM    (value 13:00)
+     2:00 PM    (value 14:00)
+     6:00 PM    (value 18:00)
+     7:00 PM    (value 19:00)
+     8:00 PM    (value 20:00)
+     9:00 PM    (value 21:00)
+7. Number of guests      (number box, 1 to 12, required, placeholder: 2)
+     Hint under it: Up to 12. For bigger groups, call us.
+8. Where would you like to sit?   (a group of 2 radio buttons, required)
+     Inside                    (value inside)
+     Outside on the terrace    (value outside)
+9. Send me a reminder by SMS   (checkbox, optional)
+10. Special requests    (big text box, optional,
+                          placeholder: Allergies, birthday, high chair, quiet corner...)
+
+Button text: Reserve my table
+
+
+=====================================
+MENU PAGE (menu.html)   (homework)
+=====================================
+
+Page heading: Our menu
+Paragraph: Our menu changes a little with the seasons, but the classics are always on it. Prices in Naira. All dishes made from scratch daily.
+
+Four sections, one per category. Each section has:
+  a small label (like "Rice dishes"), a heading, a short paragraph,
+  then one box per dish: photo, dish name, price, description.
+
+-------------------------------------
+SECTION: Rice dishes
+Heading: Rice, done right.
+Paragraph: Cooked over wood fire for that unmistakable smoky bottom.
+
+  Party Jollof | ₦8,500
+    Long-grain rice cooked low with tomato, scotch bonnet and our spice blend. Served with grilled chicken.
+    Photo: images/jollof.jpg   (alt idea: A plate of smoky jollof rice with grilled chicken and plantain)
+
+  Nigerian Fried Rice | ₦7,500
+    Fragrant rice tossed with liver, mixed vegetables, prawns and sweetcorn. Served with fried plantain.
+    Photo: images/fried-rice.jpg   (alt idea: A plate of Nigerian fried rice with mixed vegetables)
+
+  Coconut Rice | ₦7,000
+    Rice slow-steamed in fresh coconut milk with bay leaf and sweet peppers. Served with your choice of protein.
+    Photo: images/coconut-rice.jpg   (alt idea: A bowl of coconut rice with peppers)
+
+  Ofada & Ayamase | ₦9,500
+    Local brown rice with our signature green pepper stew, assorted meats and boiled egg. Not for the faint-hearted.
+    Photo: images/ofada.jpg   (alt idea: Ofada rice on a leaf with green ayamase stew, assorted meats and a boiled egg)
+
+-------------------------------------
+SECTION: Soups & swallows
+Heading: Comfort in a bowl.
+Paragraph: Pick a soup, pair it with any swallow of your choice.
+
+  Egusi Soup | ₦6,500
+    Ground melon seed, spinach, assorted meats and dried fish. Rich, nutty, and the whole table orders it.
+    Photo: images/egusi.jpg   (alt idea: A bowl of egusi soup with pounded yam)
+
+  Afang Soup | ₦7,500
+    Afang leaf and waterleaf cooked with periwinkle, dried fish and beef. A classic from the South.
+    Photo: images/afang.jpg   (alt idea: A bowl of green afang soup with periwinkles, beef and dried fish)
+
+  Ogbono Soup | ₦6,500
+    Draw soup with wild mango seed, palm oil and smoked fish. Best eaten the moment it hits the table.
+    Photo: images/ogbono.jpg   (alt idea: A bowl of ogbono soup with smoked fish and beef, served with eba)
+
+  Catfish Pepper Soup | ₦9,500
+    Fresh catfish in a hot, spiced broth with scent leaf and uziza. Light, clean and warming.
+    Photo: images/pepper-soup.jpg   (alt idea: A bowl of catfish pepper soup)
+
+  Swallow Selection | ₦1,500
+    Choose from pounded yam, eba, fufu, amala or semovita. Hand-prepared, served warm.
+    Photo: images/swallow.jpg   (alt idea: Pounded yam, eba, fufu and amala side by side on wooden plates)
+
+  Soup & Swallow Combo | ₦8,000
+    Any one soup paired with any one swallow. Add goat meat for ₦2,500, assorted meats for ₦3,000.
+    Photo: images/combo.jpg   (alt idea: A bowl of soup with assorted meats, pounded yam and a side of goat meat)
+
+-------------------------------------
+SECTION: Grills & proteins
+Heading: From the open fire.
+Paragraph: Charcoal-grilled, hand-rubbed with our spice mix.
+
+  Suya Platter | ₦5,500
+    Beef skewers rolled in roasted peanut spice, with onion, tomato and fresh pepper.
+    Photo: images/suya.jpg   (alt idea: Spicy beef suya skewers with sliced onion and tomato)
+
+  Grilled Tilapia | ₦12,000
+    Whole tilapia marinated overnight and grilled over wood fire. Served with plantain and spiced sauce.
+    Photo: images/tilapia.jpg   (alt idea: A whole grilled tilapia)
+
+  Peppered Chicken | ₦7,500
+    Chicken thighs braised in our scotch bonnet pepper sauce. Hot, sticky, worth every napkin.
+    Photo: images/peppered-chicken.jpg   (alt idea: Peppered chicken in a spicy sauce)
+
+  Asun | ₦8,500
+    Smoked goat meat tossed with onion, tomato and pepper. A plate for sharing, but you won't want to.
+    Photo: images/asun.jpg   (alt idea: Spicy smoked goat meat chunks with onion and peppers in a clay bowl)
+
+-------------------------------------
+SECTION: Drinks
+Heading: Made in-house.
+Paragraph: No sachets, no powders. Everything brewed, blended or pressed by hand.
+
+  Chapman | ₦3,500
+    Our twist on the Lagos classic: bitters, citrus, grenadine, sparkling lemonade and a slice of cucumber.
+    Photo: images/chapman.jpg   (alt idea: A glass of chapman with a slice of cucumber)
+
+  Zobo | ₦2,000
+    Hibiscus steeped with pineapple, ginger and clove. Served chilled, lightly sweetened.
+    Photo: images/zobo.jpg   (alt idea: A glass of deep red zobo with ice, pineapple and dried hibiscus)
+
+  Kunu Aya | ₦2,000
+    Creamy tigernut drink blended with dates and a hint of coconut. Rich, nutty, naturally sweet.
+    Photo: images/kunu.jpg   (alt idea: A tall glass of creamy kunu aya with tigernuts and dates)
+
+  Fresh Palm Wine | ₦2,500
+    Tapped the morning it arrives at the kitchen. Available until it runs out, usually by 9pm.
+    Photo: images/palm-wine.jpg   (alt idea: A cup of fresh palm wine)
+
+
+=====================================
+SUNDAY'S CLASS: A CHANGE FROM MAMA
+=====================================
+Mama now opens at 11:00 on Fridays.
+Change Friday's hours to: 11:00 to 12:00 AM
+
