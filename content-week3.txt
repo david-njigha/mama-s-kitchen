@@ -1,0 +1,77 @@
+MAMA'S KITCHEN, WEEK 3: THE LOOK
+================================
+Week 3 is CSS. The words are already on your pages. This file is
+Mama's design: her colours, her fonts, and the classes to add.
+
+Keep working in your OWN Mama's Kitchen folder (it's the one on
+GitHub). Copy in styles.css and this file. If your menu.html or
+reservations.html isn't finished, copy that page from this pack too.
+
+
+================================
+1. MAMA'S COLOURS
+================================
+  Red (her brand)     #c0392b   main heading, labels, prices, buttons
+  Dark red            #8b2a1f   (spare, for later)
+  Cream               #fff8f0   the page background
+  White               #ffffff   cards, the form, the header
+  Ink                 #1a1a1a   normal text, the dark panel, the footer
+  Grey                #6b7280   paragraphs
+  Border              #ece3d4   thin lines around cards and boxes
+  Gold                #d4a574   small headings in the footer
+
+
+================================
+2. MAMA'S FONTS
+================================
+  Headings (h1 to h4):  Playfair Display   (backup: Georgia, serif)
+  Everything else:      Inter              (backup: Arial, sans-serif)
+
+  Both are free from Google Fonts: fonts.google.com
+  Inter: weights 400 and 600.  Playfair Display: weight 700.
+  The <link> Google gives you goes in the <head> of ALL FOUR pages,
+  above your own styles.css link.
+
+
+================================
+3. CLASSES TO ADD (Saturday)
+================================
+  class="eyebrow"  on the small label paragraphs above headings:
+      Home:  "Est. 2004 · West African kitchen", "Our story",
+             "Signature dishes"
+      About: "Our story", "What we believe"
+      Menu:  "Rice dishes", "Soups & swallows", "Grills & proteins",
+             "Drinks"
+
+  class="btn"      on the links that should look like buttons:
+      Home:  "See the menu", "Reserve a table" (both of them),
+             "Read our full story"
+      About: "Reserve a table"
+
+  class="dish"     on every dish box (the <div> around each dish):
+      Home:  the 3 signature dishes
+      Menu:  all 18 dishes
+
+  class="choice"   on the booking form (Sunday):
+      the <fieldset> with the two radio buttons, and the <div>
+      around the SMS reminder checkbox
+
+  class="hint"     on the "Up to 12. For bigger groups, call us." line
+
+
+================================
+4. SIZES AND SPACING (Sunday)
+================================
+  Page text          1rem, line height 1.6
+  h2 / h3 / h4       2.25rem / 1.5rem / 1.2rem
+  Small labels       0.85rem, capitals, letter-spacing 2px
+  Main column        no wider than 900px, centred
+  Cards and form     padding 1.5rem to 2rem, rounded corners 18px
+  Buttons            padding 12px 24px, rounded corners 10px
+
+
+================================
+5. A CHANGE FROM MAMA (Saturday)
+================================
+Mama now opens at 11:00 on Fridays.
+Change Friday's hours to: 11:00 to 12:00 AM
