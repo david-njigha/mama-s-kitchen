@@ -1,0 +1,18 @@
+body {
+    background-color: #fff8f0;
+    color:  #1a1a1a;
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    font-size:1rem;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "inter", Arial,sans-serif;
+}
+
+p {
+    color: #6b7280;
+}
