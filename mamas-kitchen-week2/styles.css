@@ -16,3 +16,26 @@ h4 {
 p {
     color: #6b7280;
 }
+
+.eyebrow{
+    color: #c0392b;
+    font-size: 0.85rem;
+    font-weight: 600 ;
+    text-transform:uppercase ;
+    letter-spacing:2px ;
+}
+
+.btn{
+    background-color:#c0392b ;
+    color:#fff8f0 ;
+    text-decoration: none;
+}
+
+header h1 {
+    color: #c0392b;
+}
+
+nav a{
+    color: #1a1a1a;
+    text-decoration: none;
+}
